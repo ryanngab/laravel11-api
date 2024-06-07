@@ -1,0 +1,28 @@
+GET http://localhost:8000/api/posts
+
+###
+POST  http://localhost:8000/api/posts
+Content-Type: application/json
+
+{
+    
+    "title": "Belajar Rest API Laravel 11",
+    "content": "Belajar Rest API Laravel 11"
+}
+
+###
+GET http://localhost:8000/api/posts/1
+
+###
+PATCH  http://localhost:8000/api/posts/1
+Content-Type: application/json
+
+{
+    "image": "",
+    "title": "Belajar Rest API Laravel 11",
+    "content": "Belajar Rest API Laravel 11"
+}
+
+###
+DELETE http://localhost:8000/api/posts/1
+
